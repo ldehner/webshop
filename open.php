@@ -137,7 +137,7 @@ class gui {
                         <footer class="page-footer blue-grey darken-3">
                         <div class="container">
                         <div class="col l4">
-                        <p>Linus Dehner</p>
+                        <p>Michael Beier & Linus Dehner</p>
                         <br>
                         </div>
                         </div>
