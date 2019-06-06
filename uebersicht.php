@@ -211,11 +211,12 @@ if (isset($_GET['preis'])) {
                     while (($file = readdir($handle)) !== false) {
                         if ($file != "." && $file != "..") {
                             echo '<li>
-                                    <img src = "' . $row['pathPic'] . '/' . $file . "." . filetype($file) . '">
+                                    <img src = "' . $row['pathPic'] . '/' . $file . '">
                                     <div class="caption center-align" >
-                                      <h3 > ' . $row['abez'] . ' </h3 >
+                                      
                                     </div >
                                   </li >';
+                            //echo $file;
                         }
                     }
                     closedir($handle);
